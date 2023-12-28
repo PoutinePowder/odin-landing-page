@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
-<body>
-    <header>
-        <!--Logo and Nav Bar-->
-        <h1>Header Logo</h1>
-        <nav>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </nav>
-        
-        <!--Hero Text Section and Image-->
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main 
-            title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
 
-        <img alt="Cute Dog" src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
-    </header>
-    <hr>
-    <main>
-        <div>
-            <h1>Some random information.</h1>
-            <figure>
-                <img alt="Cute Dog" src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure>
-                <img alt="Cute Dog" src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure>
-                <img alt="Cute Dog" src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure>
-                <img alt="Cute Dog" src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
+<body>
+    <header style="padding-bottom: 100px;">
+        <!--Logo and Nav Bar-->
+        <div id="headerNav" style="padding-bottom: 25px;">
+
+            <h3>Header Logo</h3>
+            <nav>
+                <ul id="navBar">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <blockquote>This is an inspiring quote, or a testimonial from
-                a customer. Maybe it's just filling up space, or maybe people
-                will actually read it. Who knows? All I know is that it looks nice.
-            </blockquote>
-            <p>-Thor, God of Thunder</p>
+
+        <!--Hero Text Section and Image-->
+        <div style="display: flex;">
+            <div style="width:50%; margin-right: 50px;">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main
+                    title. It's a smaller font and the color is lower contrast.</p>
+                <button style="width:100px; height: 30px; border-radius: 10px;">Sign up</button>
+            </div>
+
+            <img style="width: 275px; margin-left: 50px;" alt="Cute Dog"
+                src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
+        </div>
+    </header>
+
+    <main>
+        <div id="information">
+            <h2>Some random information.</h2>
+            <div>
+
+                <figure>
+                    <img alt="Cute Dog"
+                        src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Cute Dog"
+                        src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Cute Dog"
+                        src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Cute Dog"
+                        src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure>
+            </div>
         </div>
     </main>
+    <div id="quote">
+        <blockquote>This is an inspiring quote, or a testimonial from
+            a customer. Maybe it's just filling up space, or maybe people
+            will actually read it. Who knows? All I know is that it looks nice.
+        </blockquote>
+        <p>-Thor, God of Thunder</p>
+    </div>
+    <div id="action" >
+        <div style=" border-radius: 25px; height: 150px;background-color: #3882F6; display: flex; justify-content: center; align-items: center;">
+            <div>
 
-    <footer>
-        <h1>Call to action! It's time!</h1>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+                <h3 style="margin: 0px;">Call to action! It's time!</h3>
+                <p style="margin: 0px 0px 0px 0px; float: left;">Sign up for our product by clicking that button right over there!</p>
+                <button style="width: 100px; height: 25px; border-radius: 10px; margin-left: 100px;">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <footer style="height: 75px; display: flex; justify-content: center; align-items: center;">
+        <p>Copyright @ The Odin Project 2021</p>
     </footer>
 
 
 </body>
+
 </html>

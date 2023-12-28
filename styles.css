@@ -1,4 +1,95 @@
+header, main, footer, #quote, #action {
+    padding: 0px 250px;
+}
+
+#headerNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navBar {
+    display: flex;
+    
+}
+
+#navBar li {
+    margin: 0px 5px;
+    
+}
+
 img {
     height: auto;
     width: 100px;
+}
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+li {
+    list-style: none;
+}
+footer, header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+footer p, header p {
+    color: #E5E7EB;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#information div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#information figure {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 10px;
+    width: 250px;
+}
+
+#information h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    
+
+}
+
+#quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#action {
+    margin: 50px 0px;
+    height: 150px;
+    background-color:  white;
+}
+
+#action h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#action p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
